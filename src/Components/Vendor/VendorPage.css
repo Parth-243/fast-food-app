@@ -1,0 +1,107 @@
+/* VendorPage.css */
+/* .fast-food-logo img {
+  width: 300px;
+} */
+.vendor-container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  min-height: 100vh;
+  padding: 20px;
+  background: url(../img/vender.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.vendor-card {
+  background: rgba(255, 255, 255, 0.169); /* Transparent background */
+  border: 1px solid rgba(255, 255, 255, 0.5); /* Border for the card */
+  border-radius: 15px;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.vendor-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ff7e67;
+  text-align: center;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form-group {
+  flex: 1;
+  min-width: 300px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.6);
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #ff7e67;
+  box-shadow: 0 0 8px rgba(255, 126, 103, 0.5);
+  outline: none;
+}
+.form-group {
+  border: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.vendor-btn {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: 50%;
+  padding: 12px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  background-color: #ff7e67;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.vendor-btn:hover {
+  background-color: #e66757;
+  box-shadow: 0px 6px 12px rgba(230, 103, 87, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .vendor-card {
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .form-group {
+    min-width: 100%;
+  }
+}

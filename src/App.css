@@ -1,0 +1,15 @@
+.item-list .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-list .card img {
+  max-width: 100px;
+  height: auto;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
